@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(42, 223, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bgdiv{
+    width:80%;
+    height:85%;
+    background-color: rgb(8, 7, 7);
+    border-radius: 10px;
+    overflow: hidden;
+    border:5px solid  white;
+}
+#ubgdiv{
+width:100%;
+height:80px;
+background-color: rgb(12, 102, 19);
+display: flex;
+    padding:0px 20%;
+    justify-content:space-between;
+    align-items:center;
+}
+
+#box{
+    height:35%;
+    gap: 15px;
+    color: black;
+    display: flex;
+    
+}
+.sbox{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    display: flex;
+    font-size:25px;
+    justify-content:center;
+    align-items:center;
+    font-weight:10px;
+}
+
+#btmbox{
+    width:100%;
+    height:calc(100% -80px);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    flex-wrap: wrap;
+    color: aliceblue;
+}
+.circle{
+    width:40px;
+    height:40px;
+    border-radius:360px ;
+    color:rgb(15, 14, 14);
+    cursor: pointer;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:10px;
+    font-size: 30px;
+    background-color:rgb(102, 250, 102);
+}
+.circle:hover{
+    background-color: bisque;
+}
